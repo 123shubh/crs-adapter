@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Reservation xmlns="http://www.opentravel.org/OTA/2003/05" CommonCode="commonCode_101" Version="1.0">
+	<TravelAgent>
+		<Agent agentId="101">
+			<Name>SD</Name>
+			<City>Pune</City>
+			<Gender>Male</Gender>
+			<RegionOfOperation>Maharashtra</RegionOfOperation>
+			<MobileNumber>8087335064</MobileNumber>
+			<ChannelPartnerOTA> </ChannelPartnerOTA>
+			<Description>An in-depth look at creating applications with XML.</Description>
+		</Agent>
+	</TravelAgent>
+	<ReservationDetails>
+		<ReservationId>101</ReservationId>
+		<UniqueId>res_1</UniqueId>
+		<BookingCreatedTime>2023-06-13</BookingCreatedTime>
+		<ArrivalDate>2023-06-20</ArrivalDate>
+		<DepartureDate>2023-06-21</DepartureDate>
+		<NumberOfStayDays>1</NumberOfStayDays>
+		<ReservationStatus>Commit</ReservationStatus>
+		<HotelDetails> 
+			<HotelId>hotel_101</HotelId>
+			<HotelName>SD ch hotel</HotelName>
+			<HotelCityName>Pune</HotelCityName>
+			<HotelCityPostalCode>411414</HotelCityPostalCode>
+			<RoomDetails>
+				<RoomId>room_101</RoomId>
+				<RoomName>Special</RoomName>
+				<RateId>Special</RateId>
+				<RateName>Special</RateName>
+			</RoomDetails>
+		</HotelDetails>
+		<GuestDetails>
+			<GuestDetail>
+				<GuestId>101</GuestId>
+				<PrimaryGuestFirstName>Shubham</PrimaryGuestFirstName>
+				<PrimaryGuestLastName>Deshmukh</PrimaryGuestLastName>
+				<PrimaryGuestMobileNumbers>
+					<PrimaryGuestMobileNumber>888888888888</PrimaryGuestMobileNumber>
+				</PrimaryGuestMobileNumbers>
+				<SecondaryGuestNames>
+					<SecondaryGuestName>sd1</SecondaryGuestName>
+					<SecondaryGuestName>sd2</SecondaryGuestName>
+				</SecondaryGuestNames> 
+				<SecondaryGuestMobileNumbers>
+					<SecondaryGuestMobileNumber>00000</SecondaryGuestMobileNumber>
+					<SecondaryGuestMobileNumber>00000</SecondaryGuestMobileNumber>
+				</SecondaryGuestMobileNumbers>
+				<NumberOfChildren>0</NumberOfChildren>
+			</GuestDetail>
+		</GuestDetails>
+		<AmountDetails>
+			<TotalAmount>1000</TotalAmount>
+			<ChargesPerDay>1000</ChargesPerDay>
+			<ChargesPerPerson>00</ChargesPerPerson>
+			<ExtraCharges>200</ExtraCharges>
+			<CurrencyCode>INR</CurrencyCode>
+		</AmountDetails>
+	</ReservationDetails>
+</Reservation>
